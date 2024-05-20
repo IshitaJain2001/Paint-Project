@@ -1,0 +1,207 @@
+*, *::after,*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    height: 100vh;
+    width: 100vw;
+  overflow: hidden;
+  
+}
+
+.navbar{
+    height: 15%;
+    width: 70%;
+margin-left: 10%;
+margin-top: 1%;
+background-color:rgba(0, 0, 0, 0.675);
+
+/* opacity: 0.6; */
+/* border : 1px solid black; */
+border-radius: 25px;
+display: flex;
+justify-content: space-evenly;
+
+}
+
+.tools{
+    height:70%;
+    width: 10%;
+    background-color: white;
+ display: grid;
+ grid-template-columns: repeat(2, 1fr);
+ grid-template-rows: repeat(2, 1fr);
+    margin-top: 1%;
+}
+
+
+
+.colors{
+    height: 70%;
+    width: 33%;
+
+    margin-top: 1%;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+
+    padding-left: 2%;
+    line-height: 2%;
+}
+.tool{
+    transform: translate(38px,34px);
+display: none;
+}
+
+
+.toolkit{
+    border: 1px solid black;
+    padding-left: 10px;
+    padding-top: 2px;
+}
+
+.colorkit{
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 65%;
+    height: 95%;
+
+}
+.kit2{
+    margin-top: 5px;
+}
+
+.color1{
+    background-color: aqua;
+}
+
+.color2{
+    background-color: blue;
+}
+
+.color3{
+    background-color: blueviolet;
+}
+.color4{
+    background-color: brown;
+}
+.color5{
+    background-color: cadetblue;
+}
+.color6{
+    background-color: chartreuse;
+}
+
+.color7{
+    background-color: coral;
+}
+
+.color8{
+    background-color: darkgoldenrod;
+}
+
+.color9{
+    background-color: black;
+}
+
+.color10{
+    background-color: darkred;
+}
+
+.color11{
+    background-color: deeppink;
+}
+
+.color12{
+    background-color: gold;
+}
+
+.color13{
+    background-color: green;
+}
+
+.color14{
+    background-color: white;
+}
+
+#drawingCanvas{
+    height: 570px;
+    width: 90vw;
+    margin-top: -334px;
+    margin-left: 140px;
+    border: 2px solid black;
+   
+    
+}
+
+.shapes{
+    font-size: 22px;
+    border: none;
+    background-color: rgb(111, 158, 171);
+    transform: translate(10px,50px);
+    height: 40px;
+}
+.allshapes{
+    transform: translate(10px,70px);
+    height: 280px;
+    width: 115px;
+    background-color: rgb(111, 158, 171);
+    opacity: 0;
+}
+.triangle{
+border: none;
+background-color: transparent;
+transform: translate(25px,10px);
+}
+
+.rectangle{
+    border: none;
+    transform: translate(-30px,78px);
+    background-color: transparent;
+  
+    }
+
+    .square{
+        border: none;
+        transform: translate(26px,88px);
+        background-color: transparent;
+      
+        }
+
+        .circle{
+            border: none;
+            transform: translate(-27px,156px);
+            background-color: transparent;
+          
+            }
+
+
+.clear{
+    font-size: 25px;
+    padding: 3px;
+    border: 0;
+    background-color: rgb(111, 158, 171); 
+    transform: translate(1400px,-400px);
+}
+
+.save{
+    font-size: 25px;
+    padding: 3px;
+    border: 0;
+    background-color: rgb(111, 158, 171); 
+    transform: translate(1260px,-400px); 
+}
+
+canvas.erased{
+    cursor: url('eraser-solid.svg'),auto;
+}
+
+canvas.pencilused{
+    cursor:url('pen-solid.svg') ,auto;
+}
+
+.slider-input{
+    /* opacity:0; */
+}
